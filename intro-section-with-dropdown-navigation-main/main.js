@@ -1,8 +1,10 @@
-const navLinks = document.querySelectorAll(".nav-links li");
+
 const menuBtn = document.querySelector(".mobile-menu-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 const overflow = document.querySelector(".overflow");
 const mobileLinks = document.querySelectorAll(".mobile-links li");
+const navLinks = document.querySelectorAll(".nav-links li");
+
 
 menuBtn.addEventListener("click", () => {
   const icon = document.querySelector(".mobile-menu-btn img");
@@ -15,7 +17,6 @@ menuBtn.addEventListener("click", () => {
     icon.src = "./images/icon-menu.svg";
   }
 });
-
 navLinks.forEach((link) => {
   const subMenu = link.querySelector(".sub-menu");
   link.addEventListener("click", () => {
