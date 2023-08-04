@@ -17,7 +17,7 @@ body {
   img {
     max-width: 100%;
   }
-  
+  /*Botones*/
   .outlined-btn,
   .transparent-btn {
     padding: 1rem 2rem;
@@ -40,6 +40,7 @@ body {
     color: var(--Almost-Black);
     font-weight: 700;
   }
+  /*Botones Principal*/
   .primary-btn {
     background-color: var(--Almost-Black);
     width: fit-content;
@@ -119,6 +120,7 @@ body {
     width: 150px;
     gap: 0.5rem;
   }
+  /*Rotacion de la flechas*/
   .active .arrow {
     transform: rotate(180deg);
     transition: 0.2s;
@@ -157,6 +159,7 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  /*CONFIG MOVIL*/
   @media screen and (max-width: 882px) {
     .nav-container {
       padding-inline: 1rem;

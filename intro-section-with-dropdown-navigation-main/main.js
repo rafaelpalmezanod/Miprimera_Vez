@@ -5,7 +5,7 @@ const overflow = document.querySelector(".overflow");
 const mobileLinks = document.querySelectorAll(".mobile-links li");
 const navLinks = document.querySelectorAll(".nav-links li");
 
-
+// Hamburgesa//
 menuBtn.addEventListener("click", () => {
   const icon = document.querySelector(".mobile-menu-btn img");
   menuBtn.classList.toggle("active-btn");
@@ -17,6 +17,7 @@ menuBtn.addEventListener("click", () => {
     icon.src = "./images/icon-menu.svg";
   }
 });
+// Menu despegable //
 navLinks.forEach((link) => {
   const subMenu = link.querySelector(".sub-menu");
   link.addEventListener("click", () => {
